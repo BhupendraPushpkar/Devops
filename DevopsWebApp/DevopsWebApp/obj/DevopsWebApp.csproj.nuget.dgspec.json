@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\91798\\source\\repos\\DevopsWebApp\\DevopsWebApp\\DevopsWebApp.csproj": {}
+    "C:\\Users\\91798\\Devops\\DevopsWebApp\\DevopsWebApp\\DevopsWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\91798\\source\\repos\\DevopsWebApp\\DevopsWebApp\\DevopsWebApp.csproj": {
+    "C:\\Users\\91798\\Devops\\DevopsWebApp\\DevopsWebApp\\DevopsWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91798\\source\\repos\\DevopsWebApp\\DevopsWebApp\\DevopsWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\91798\\Devops\\DevopsWebApp\\DevopsWebApp\\DevopsWebApp.csproj",
         "projectName": "DevopsWebApp",
-        "projectPath": "C:\\Users\\91798\\source\\repos\\DevopsWebApp\\DevopsWebApp\\DevopsWebApp.csproj",
+        "projectPath": "C:\\Users\\91798\\Devops\\DevopsWebApp\\DevopsWebApp\\DevopsWebApp.csproj",
         "packagesPath": "C:\\Users\\91798\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91798\\source\\repos\\DevopsWebApp\\DevopsWebApp\\obj\\",
+        "outputPath": "C:\\Users\\91798\\Devops\\DevopsWebApp\\DevopsWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\91798\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.17.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
